@@ -1,0 +1,24 @@
+.border {
+  border: 1px solid crimson;
+}
+
+.navbar {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar > h3 {
+  font-size: 24px;
+}
+
+.navbar > p {
+  font-size: 16px;
+}
+
+.navbar__right-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

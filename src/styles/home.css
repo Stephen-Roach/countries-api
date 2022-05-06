@@ -1,0 +1,14 @@
+.home {
+  background-color: hsl(0, 0%, 98%);
+  height: 100vh;
+}
+
+.home__search-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__search-input > input {
+  border: none;
+}
