@@ -1,13 +1,10 @@
 import React from 'react';
-import SearchIcon from '@mui/icons-material/Search';
+import SearchBar from './SearchBar';
 
 function Home() {
   return (
     <div className='home'>
-      <div className='home__search-input'>
-        <SearchIcon />
-        <input type='text' />
-      </div>
+      <SearchBar />
     </div>
   );
 }

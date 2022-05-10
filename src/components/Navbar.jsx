@@ -1,5 +1,6 @@
 import React from 'react';
 import NightlightRoundTwoToneIcon from '@mui/icons-material/NightlightRoundTwoTone';
+
 function Navbar() {
   return (
     <div className='navbar border'>

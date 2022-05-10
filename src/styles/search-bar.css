@@ -1,0 +1,17 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 50px;
+  background-color: white;
+  width: 20%;
+  height: 50px;
+  border-radius: 5px;
+}
+
+input[type='text'] {
+  border: none;
+  line-height: 28px;
+  width: 100%;
+  outline: none;
+}
