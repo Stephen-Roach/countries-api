@@ -3,7 +3,7 @@ import NightlightRoundTwoToneIcon from '@mui/icons-material/NightlightRoundTwoTo
 
 function Navbar() {
   return (
-    <div className='navbar border'>
+    <div className='navbar'>
       <div className='navbar__left-side'>
         <h3>Where in the world?</h3>
       </div>

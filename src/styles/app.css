@@ -1,6 +1,14 @@
 @import 'navbar.css';
 @import 'home.css';
 @import 'search-bar.css';
+@import 'countries-card.css';
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+@font-face {
+  font-family: myFont;
+  src: url('https://fonts.google.com/specimen/Nunito+Sans');
+}
 
 *,
 *::before,
@@ -13,6 +21,15 @@ body {
   margin: 0;
   box-sizing: border-box;
   background-color: white;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.countries-container {
+  background-color: hsl(0, 0%, 98%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .border {

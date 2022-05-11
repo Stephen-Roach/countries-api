@@ -4,7 +4,8 @@ import Home from './Home';
 import CountriesCard from './CountriesCard';
 import '../styles/app.css';
 
-const COUNTRIES_API = 'https://restcountries.com/v3.1/name/peru';
+// const COUNTRIES_API = 'https://restcountries.com/v3.1/name/peru';
+const COUNTRIES_API = 'https://restcountries.com/v3.1/all';
 
 function App() {
   const [countries, setCountries] = useState([]);
@@ -28,7 +29,7 @@ function App() {
       <div className='countries-container'>
         {countries.length > 0 &&
           countries.map((country) => (
-            <CountriesCard {...country} key={country.id} />
+            <CountriesCard {...country} key={country.idd.root} />
           ))}
       </div>
     </div>
